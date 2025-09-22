@@ -4,5 +4,5 @@
 đăng nhập bằng tài khoản user
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
-thông tin được lưu trong mysql
-![img_2.png](img_2.png)
+thông tin được lưu trong mysql (mật khẩu đã được mã hóa)
+![img_5.png](img_5.png)

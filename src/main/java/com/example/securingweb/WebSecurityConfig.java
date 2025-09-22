@@ -19,7 +19,7 @@ public class WebSecurityConfig {
     // QUICK TEST ONLY — compares raw text from login to raw text in DB
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return NoOpPasswordEncoder.getInstance();
+        return new org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder();
     }
 
     // Load users/roles from MySQL table: info(user, password, role)
